@@ -1,0 +1,46 @@
+---
+layout: post
+title: '开发辅助工具'
+subtitle: '开发中适应的工具&调试'
+date: 2019-03-18
+categories: 技术
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
+tags: tool
+---
+
+<html>
+  <head> </head>
+  <title></title>
+  <body>
+    <div>
+      <h3>一：调试工具</h3>
+      1.
+      <a href="https://www.cnblogs.com/dianming/p/6902442.html"> iOS之Safari调试webView/H5页面</a>
+      <br />
+      <div>
+        2. 手机端debugger查看
+        <div>
+          <p>
+            第一步：安装spy-debugger： windows：npm install spy-debugger -g mac：sudo npm install
+            spy-debugger -g
+          </p>
+          <p>第二步：手机和PC保持在同一网络下（比如同时连到一个Wi-Fi下）</p>
+          <p>第三步：命令行输入spy-debugger，按命令行提示用浏览器打开相应地址。</p>
+          <p>
+            第四步：设置手机的HTTP代理，代理IP地址设置为PC的IP地址，端口为spy-debugger的启动端口(默认端口：9888)。
+          </p>
+        </div>
+        <div>参考资料：<a href="https://www.jianshu.com/p/833397313de1">debugger操作介绍 </a></div>
+      </div>
+    </div>
+    <div>
+      <h3>二：端口占用操作</h3>
+      <p>lsof -I:9001 根据指定的端口查看对应的进程情况 获取pid</p>
+      <p>Kill -9 pid 找到需要杀掉的进程，执行</p>
+    </div>
+    <div>
+      <h3>三：chrome中截完整图片</h3>
+      <p>f12模式（或者 option+command+i 或 option+command+j）- command+shift+p -cfss</p>
+    </div>
+  </body>
+</html>

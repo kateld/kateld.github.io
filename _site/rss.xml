@@ -1,43 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>丹丹已按时发斯蒂芬博客</title>
-    <description>很高兴能在这里与你分享我对技术和生活的思考。</description>
+    <title>丹丹的博客</title>
+    <description>很高兴能在这里与你分享我对技术和生活的记录和思考。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Mar 2019 10:58:47 +0800</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 10:58:47 +0800</lastBuildDate>
+    <pubDate>Mon, 18 Mar 2019 16:54:32 +0800</pubDate>
+    <lastBuildDate>Mon, 18 Mar 2019 16:54:32 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>MathJax Test</title>
-        <description>&lt;p&gt;mathjax in markdown :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这是一个不&lt;code class=&quot;highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\forall \alpha \in A, \quad a \cdot b = 0&lt;/script&gt;
-
-&lt;p&gt;&lt;strong&gt;这是一个&lt;code class=&quot;highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\text{for OTP : $\qquad$ if }\quad E(k,\:m)=c\\
-\begin{align}
-k\oplus m &amp;= c \\
-k &amp;= m\oplus c
-\end{align}
-\\
-\#\{\;k \in \mathscr K : \quad E(k,\:m)=c \;\}=1 \quad \forall m,\:c %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;公式块要想有较好的显示效果，必须在公式块标记符&lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;strong&gt;前后&lt;/strong&gt;留有空行，否则公式将不能正常居中。行内公式无此问题。&lt;/p&gt;
+        <title>开发辅助工具</title>
+        <description>&lt;html&gt;
+  &lt;head&gt; &lt;/head&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;h3&gt;一：调试工具&lt;/h3&gt;
+      1.
+      &lt;a href=&quot;https://www.cnblogs.com/dianming/p/6902442.html&quot;&gt; iOS之Safari调试webView/H5页面&lt;/a&gt;
+      &lt;br /&gt;
+      &lt;div&gt;
+        2. 手机端debugger查看
+        &lt;div&gt;
+          &lt;p&gt;
+            第一步：安装spy-debugger： windows：npm install spy-debugger -g mac：sudo npm install
+            spy-debugger -g
+          &lt;/p&gt;
+          &lt;p&gt;第二步：手机和PC保持在同一网络下（比如同时连到一个Wi-Fi下）&lt;/p&gt;
+          &lt;p&gt;第三步：命令行输入spy-debugger，按命令行提示用浏览器打开相应地址。&lt;/p&gt;
+          &lt;p&gt;
+            第四步：设置手机的HTTP代理，代理IP地址设置为PC的IP地址，端口为spy-debugger的启动端口(默认端口：9888)。
+          &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div&gt;参考资料：&lt;a href=&quot;https://www.jianshu.com/p/833397313de1&quot;&gt;debugger操作介绍 &lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;h3&gt;二：端口占用操作&lt;/h3&gt;
+      &lt;p&gt;lsof -I:9001 根据指定的端口查看对应的进程情况 获取pid&lt;/p&gt;
+      &lt;p&gt;Kill -9 pid 找到需要杀掉的进程，执行&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;h3&gt;三：chrome中截完整图片&lt;/h3&gt;
+      &lt;p&gt;f12模式（或者 option+command+i 或 option+command+j）- command+shift+p -cfss&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </description>
-        <pubDate>Sun, 30 Jul 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/07/30/mathjax-test.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/30/mathjax-test.html</guid>
+        <pubDate>Mon, 18 Mar 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/03/18/records.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/18/records.html</guid>
         
-        <category>mathjax</category>
+        <category>tool</category>
         
         
-        <category>test</category>
+        <category>技术</category>
+        
+      </item>
+    
+      <item>
+        <title>git command</title>
+        <description>&lt;html&gt;
+  &lt;head&gt; &lt;/head&gt;
+  &lt;title&gt;git 积累&lt;/title&gt;
+  &lt;body&gt;
+    &lt;h4&gt;常用基础git操作命令&lt;/h4&gt;
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;git命令&lt;/th&gt;
+          &lt;th&gt;git说明&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git status&lt;/td&gt;
+          &lt;td&gt;查看状态&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git fetch&lt;/td&gt;
+          &lt;td&gt;获取总分支&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git branch (-r)&lt;/td&gt;
+          &lt;td&gt;查看所有远程分支&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git clear&lt;/td&gt;
+          &lt;td&gt;清空&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;ls&lt;/td&gt;
+          &lt;td&gt;查看文件&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;rm -Rf *&lt;/td&gt;
+          &lt;td&gt;删除所有文件&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git clone url&lt;/td&gt;
+          &lt;td&gt;获取对应的git地址源码&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git checkout 对应分支名称&lt;/td&gt;
+          &lt;td&gt;切换到指定的分支&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git checkout .&lt;/td&gt;
+          &lt;td&gt;撤回所有修改&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git stash&lt;/td&gt;
+          &lt;td&gt;修改的代码进行缓存&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git pull&lt;/td&gt;
+          &lt;td&gt;远程代码更新&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git stash pop&lt;/td&gt;
+          &lt;td&gt;恢复缓存代码&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git commit -am 'desc'&lt;/td&gt;
+          &lt;td&gt;进行commit操作&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git push(git push origin --all)&lt;/td&gt;
+          &lt;td&gt;进行push操作&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git log 查看提交的commitid（取前6位）&lt;/td&gt;
+          &lt;td&gt;查看日志&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git reset --hard commitid（取前6位）&lt;/td&gt;
+          &lt;td&gt;重置当前代码到commitid版本&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git merge --no-ff 指定版本&lt;/td&gt;
+          &lt;td&gt;合并某个版本(要把什么代码合并到什么分支上，先要切换到该分支上在 进行以上的操作)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git checkout -b 分支名称&lt;/td&gt;
+          &lt;td&gt;创建并切换到指定的分支&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git branch -d 分支名称&lt;/td&gt;
+          &lt;td&gt;删除某个分支&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;rz&lt;/td&gt;
+          &lt;td&gt;不会覆盖已存在的文件&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;rz -y&lt;/td&gt;
+          &lt;td&gt;强制覆盖所有文件&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;unzip 文件名称&lt;/td&gt;
+          &lt;td&gt;解压文件&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;h3&gt;
+      相关参考地址：
+      &lt;a href=&quot;https://www.cnblogs.com/chenwolong/p/GIT.html&quot;&gt;GIT 常用命令&lt;/a&gt;
+      &lt;a
+        href=&quot;https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6&quot;
+        &gt;git管理介绍&lt;/a
+      &gt;
+    &lt;/h3&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Mon, 18 Mar 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/03/18/git-command.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/18/git-command.html</guid>
+        
+        <category>git</category>
+        
+        
+        <category>技术</category>
         
       </item>
     
@@ -177,7 +322,7 @@ k &amp;= m\oplus c
       </item>
     
       <item>
-        <title>Hello Jekyll我去二群翁让我去二翁</title>
+        <title>Hello Jekyll</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;Transform your plain text into static websites and blogs.&lt;/p&gt;
 &lt;/blockquote&gt;

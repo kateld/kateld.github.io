@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Jekyll - 丹丹的博客</title>
+    <title>git command - 丹丹的博客</title>
     <meta name="author"  content="刘丹">
-    <meta name="description" content="Hello Jekyll">
-    <meta name="keywords"  content="jekyll">
+    <meta name="description" content="git command">
+    <meta name="keywords"  content="git">
     <!-- Open Graph -->
-    <meta property="og:title" content="Hello Jekyll - 丹丹的博客">
+    <meta property="og:title" content="git command - 丹丹的博客">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://localhost:4000/2017/04/18/hello-jekyll.html">
+    <meta property="og:url" content="http://localhost:4000/2019/03/18/git-command.html">
     <meta property="og:description" content="很高兴能在这里与你分享我对技术和生活的记录和思考。">
     <meta property="og:site_name" content="丹丹的博客">
     <link rel="stylesheet" href="//cdn.staticfile.org/normalize/6.0.0/normalize.min.css">
@@ -116,45 +116,141 @@ Author: Ray-Eldath
       <div class="post-tags">
         
           
-            <a href="http://localhost:4000/tags#jekyll" class="post-tag">jekyll</a>
+            <a href="http://localhost:4000/tags#git" class="post-tag">git</a>
           
         
       </div>
-      <h1>Hello Jekyll</h1>
+      <h1>git command</h1>
       <div class="post-meta">
-        <span class="post-meta-item"><i class="iconfont icon-author"></i>Jekyll</span>
-        <time class="post-meta-item" datetime="17-04-18"><i class="iconfont icon-date"></i>18 Apr 2017</time>
+        <span class="post-meta-item"><i class="iconfont icon-author"></i>刘丹</span>
+        <time class="post-meta-item" datetime="19-03-18"><i class="iconfont icon-date"></i>18 Mar 2019</time>
       </div>
     </div>
     
     <div class="filter"></div>
-      <div class="post-cover" style="background: url('http://on2171g4d.bkt.clouddn.com/jekyll-banner.png') center no-repeat; background-size: cover;"></div>
+      <div class="post-cover" style="background: url('http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg') center no-repeat; background-size: cover;"></div>
     
   </header>
 
   <div class="post-content visible">
     
+    <h2 class="post-subtitle">常用git命令积累</h2>
+    
 
     <article class="markdown-body">
-      <blockquote>
-  <p>Transform your plain text into static websites and blogs.</p>
-</blockquote>
-
-<h3 id="welcome">Welcome</h3>
-
-<p>This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.</p>
-
-<h3 id="so-what-is-jekyll-exactlypermalink">So what is Jekyll, exactly?Permalink</h3>
-
-<p>Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>) and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.</p>
-
-<h3 id="helpful-hintspermalink">Helpful HintsPermalink</h3>
-
-<p>Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for.</p>
-
-<h3 id="video-test">Video Test</h3>
-
-<iframe type="text/html" width="100%" height="385" src="http://www.youtube.com/embed/gfmjMWjn-Xg" frameborder="0"></iframe>
+      <html>
+  <head> </head>
+  <title>git 积累</title>
+  <body>
+    <h4>常用基础git操作命令</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>git命令</th>
+          <th>git说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>git status</td>
+          <td>查看状态</td>
+        </tr>
+        <tr>
+          <td>git fetch</td>
+          <td>获取总分支</td>
+        </tr>
+        <tr>
+          <td>git branch (-r)</td>
+          <td>查看所有远程分支</td>
+        </tr>
+        <tr>
+          <td>git clear</td>
+          <td>清空</td>
+        </tr>
+        <tr>
+          <td>ls</td>
+          <td>查看文件</td>
+        </tr>
+        <tr>
+          <td>rm -Rf *</td>
+          <td>删除所有文件</td>
+        </tr>
+        <tr>
+          <td>git clone url</td>
+          <td>获取对应的git地址源码</td>
+        </tr>
+        <tr>
+          <td>git checkout 对应分支名称</td>
+          <td>切换到指定的分支</td>
+        </tr>
+        <tr>
+          <td>git checkout .</td>
+          <td>撤回所有修改</td>
+        </tr>
+        <tr>
+          <td>git stash</td>
+          <td>修改的代码进行缓存</td>
+        </tr>
+        <tr>
+          <td>git pull</td>
+          <td>远程代码更新</td>
+        </tr>
+        <tr>
+          <td>git stash pop</td>
+          <td>恢复缓存代码</td>
+        </tr>
+        <tr>
+          <td>git commit -am 'desc'</td>
+          <td>进行commit操作</td>
+        </tr>
+        <tr>
+          <td>git push(git push origin --all)</td>
+          <td>进行push操作</td>
+        </tr>
+        <tr>
+          <td>git log 查看提交的commitid（取前6位）</td>
+          <td>查看日志</td>
+        </tr>
+        <tr>
+          <td>git reset --hard commitid（取前6位）</td>
+          <td>重置当前代码到commitid版本</td>
+        </tr>
+        <tr>
+          <td>git merge --no-ff 指定版本</td>
+          <td>合并某个版本(要把什么代码合并到什么分支上，先要切换到该分支上在 进行以上的操作)</td>
+        </tr>
+        <tr>
+          <td>git checkout -b 分支名称</td>
+          <td>创建并切换到指定的分支</td>
+        </tr>
+        <tr>
+          <td>git branch -d 分支名称</td>
+          <td>删除某个分支</td>
+        </tr>
+        <tr>
+          <td>rz</td>
+          <td>不会覆盖已存在的文件</td>
+        </tr>
+        <tr>
+          <td>rz -y</td>
+          <td>强制覆盖所有文件</td>
+        </tr>
+        <tr>
+          <td>unzip 文件名称</td>
+          <td>解压文件</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>
+      相关参考地址：
+      <a href="https://www.cnblogs.com/chenwolong/p/GIT.html">GIT 常用命令</a>
+      <a
+        href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6"
+        >git管理介绍</a
+      >
+    </h3>
+  </body>
+</html>
 
     </article>
 
@@ -195,10 +291,10 @@ Author: Ray-Eldath
     <section class="post-footer-item read-next">
       
       <div class="read-next-item">
-        <a href="/2017/04/18/new-theme-h2o.html" class="read-next-link"></a>
+        <a href="/2019/03/18/records.html" class="read-next-link"></a>
         <section>
-          <span>H2O theme for Jekyll</span>
-          <p>正如我在微博上所说的，使用Jekyll半年以来一直没有令我满意的主题模板，所以开始计划自己写一套好看又好用的主题模...</p>
+          <span>开发辅助工具</span>
+          <p>                 一：调试工具      1.       iOS之Safari调试webView...</p>
         </section>
         
         <div class="filter"></div>
@@ -207,6 +303,18 @@ Author: Ray-Eldath
      </div>
       
 
+      
+      <div class="read-next-item">
+        <a href="/2017/04/18/new-theme-h2o.html" class="read-next-link"></a>
+          <section>
+            <span>H2O theme for Jekyll</span>
+            <p>正如我在微博上所说的，使用Jekyll半年以来一直没有令我满意的主题模板，所以开始计划自己写一套好看又好用的主题模...</p>
+          </section>
+          
+          <div class="filter"></div>
+          <img src="http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg" alt="">
+          
+      </div>
       
     </section>
     

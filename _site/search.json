@@ -1,9 +1,15 @@
 [
   
     {
-      "title"    : "MathJax Test",
-      "tags"     : "mathjax",
-      "url"      : "/2017/07/30/mathjax-test.html"
+      "title"    : "开发辅助工具",
+      "tags"     : "tool",
+      "url"      : "/2019/03/18/records.html"
+    } ,
+  
+    {
+      "title"    : "git command",
+      "tags"     : "git",
+      "url"      : "/2019/03/18/git-command.html"
     } ,
   
     {
@@ -13,7 +19,7 @@
     } ,
   
     {
-      "title"    : "Hello Jekyll我去二群翁让我去二翁",
+      "title"    : "Hello Jekyll",
       "tags"     : "jekyll",
       "url"      : "/2017/04/18/hello-jekyll.html"
     } 

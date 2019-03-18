@@ -1,0 +1,123 @@
+---
+layout: post
+title: 'git command'
+subtitle: '常用git命令积累'
+date: 2019-03-18
+categories: 技术
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
+tags: git
+---
+
+<html>
+  <head> </head>
+  <title>git 积累</title>
+  <body>
+    <h4>常用基础git操作命令</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>git命令</th>
+          <th>git说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>git status</td>
+          <td>查看状态</td>
+        </tr>
+        <tr>
+          <td>git fetch</td>
+          <td>获取总分支</td>
+        </tr>
+        <tr>
+          <td>git branch (-r)</td>
+          <td>查看所有远程分支</td>
+        </tr>
+        <tr>
+          <td>git clear</td>
+          <td>清空</td>
+        </tr>
+        <tr>
+          <td>ls</td>
+          <td>查看文件</td>
+        </tr>
+        <tr>
+          <td>rm -Rf *</td>
+          <td>删除所有文件</td>
+        </tr>
+        <tr>
+          <td>git clone url</td>
+          <td>获取对应的git地址源码</td>
+        </tr>
+        <tr>
+          <td>git checkout 对应分支名称</td>
+          <td>切换到指定的分支</td>
+        </tr>
+        <tr>
+          <td>git checkout .</td>
+          <td>撤回所有修改</td>
+        </tr>
+        <tr>
+          <td>git stash</td>
+          <td>修改的代码进行缓存</td>
+        </tr>
+        <tr>
+          <td>git pull</td>
+          <td>远程代码更新</td>
+        </tr>
+        <tr>
+          <td>git stash pop</td>
+          <td>恢复缓存代码</td>
+        </tr>
+        <tr>
+          <td>git commit -am 'desc'</td>
+          <td>进行commit操作</td>
+        </tr>
+        <tr>
+          <td>git push(git push origin --all)</td>
+          <td>进行push操作</td>
+        </tr>
+        <tr>
+          <td>git log 查看提交的commitid（取前6位）</td>
+          <td>查看日志</td>
+        </tr>
+        <tr>
+          <td>git reset --hard commitid（取前6位）</td>
+          <td>重置当前代码到commitid版本</td>
+        </tr>
+        <tr>
+          <td>git merge --no-ff 指定版本</td>
+          <td>合并某个版本(要把什么代码合并到什么分支上，先要切换到该分支上在 进行以上的操作)</td>
+        </tr>
+        <tr>
+          <td>git checkout -b 分支名称</td>
+          <td>创建并切换到指定的分支</td>
+        </tr>
+        <tr>
+          <td>git branch -d 分支名称</td>
+          <td>删除某个分支</td>
+        </tr>
+        <tr>
+          <td>rz</td>
+          <td>不会覆盖已存在的文件</td>
+        </tr>
+        <tr>
+          <td>rz -y</td>
+          <td>强制覆盖所有文件</td>
+        </tr>
+        <tr>
+          <td>unzip 文件名称</td>
+          <td>解压文件</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>
+      相关参考地址：
+      <a href="https://www.cnblogs.com/chenwolong/p/GIT.html">GIT 常用命令</a>
+      <a
+        href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6"
+        >git管理介绍</a
+      >
+    </h3>
+  </body>
+</html>
