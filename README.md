@@ -6,7 +6,7 @@
 
 ### Preview
 
-#### [在线预览 Live Demo →](http://liaokeyu.com/)
+#### [在线预览 Live Demo →](http://kateld.github.io/)
 
 ![](screenshot/jekyll-theme-h2o-realhome.jpg)
 
@@ -15,12 +15,6 @@
 如果你喜欢这个博客模板，请在右上角 star 一下，非常感谢～
 
 If you like this theme or using it, please give a ⭐️ for motivation ;)
-
-如果想体验手机浏览效果，可以扫一下二维码：
-
-![](screenshot/1494404591.png)
-
-Using your smartphone to scan the QR Code
 
 ### Features 特性
 
@@ -64,9 +58,9 @@ Using your smartphone to scan the QR Code
 
 点击右上角 Fork 按钮在你的 Github 上创建分支，或者`clone`到本地。
 
-`git clone https://github.com/kaeyleo/jekyll-theme-H2O.git`
+`git clone https://github.com/kateld/kateld.github.io.git`
 
-最后，在命令行输入 `jekyll serve` 开启服务，就能在本地预览主题了。
+最后，在命令行输入 `jekyll serve` 或者`jekyll serve --watch` 开启服务，就能在本地预览主题了。
 
 如果需要部署到线上环境，请参照配置文档的 **开始** 章节进行操作。
 
@@ -96,10 +90,10 @@ You can easily get started by modifying \_config.yml
 
 ```
 # Site settings
-title: '廖柯宇的独立博客' # 你的博客网站标题
+title: '丹丹的博客' # 你的博客网站标题
 description: '很高兴能在这里与你分享我对技术和生活的思考。' # 站点描述
-keyword: '廖柯宇, 廖柯宇的独立博客, 前端, 设计' # 网站关键词
-url: 'http://liaokeyu.com' # 站点url
+keyword: '前端, 设计' # 网站关键词
+url: '' # 站点url
 baseurl: ''
 
 # Build settings
@@ -118,7 +112,7 @@ paginate_path: 'page:num'
 layout: post
 title: 'H2O theme for Jekyll'
 subtitle: '或许是最漂亮的Jekyll主题'
-date: 2017-04-18
+date: 2019-03-18
 categories: 技术
 cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
 tags: jekyll 前端开发 设计
