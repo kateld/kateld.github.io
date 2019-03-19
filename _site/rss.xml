@@ -5,8 +5,8 @@
     <description>很高兴能在这里与你分享我对技术和生活的记录和思考。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Mar 2019 14:23:52 +0800</pubDate>
-    <lastBuildDate>Tue, 19 Mar 2019 14:23:52 +0800</lastBuildDate>
+    <pubDate>Tue, 19 Mar 2019 15:07:09 +0800</pubDate>
+    <lastBuildDate>Tue, 19 Mar 2019 15:07:09 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -318,37 +318,6 @@
         
         
         <category>技术</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello Jekyll</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Transform your plain text into static websites and blogs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;welcome&quot;&gt;Welcome&lt;/h3&gt;
-
-&lt;p&gt;This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.&lt;/p&gt;
-
-&lt;h3 id=&quot;so-what-is-jekyll-exactlypermalink&quot;&gt;So what is Jekyll, exactly?Permalink&lt;/h3&gt;
-
-&lt;p&gt;Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;) and our &lt;a href=&quot;https://github.com/Shopify/liquid/wiki&quot;&gt;Liquid&lt;/a&gt; renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.&lt;/p&gt;
-
-&lt;h3 id=&quot;helpful-hintspermalink&quot;&gt;Helpful HintsPermalink&lt;/h3&gt;
-
-&lt;p&gt;Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for.&lt;/p&gt;
-
-&lt;h3 id=&quot;video-test&quot;&gt;Video Test&lt;/h3&gt;
-
-&lt;iframe type=&quot;text/html&quot; width=&quot;100%&quot; height=&quot;385&quot; src=&quot;http://www.youtube.com/embed/gfmjMWjn-Xg&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Tue, 18 Apr 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/04/18/hello-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/18/hello-jekyll.html</guid>
-        
-        <category>jekyll</category>
-        
         
       </item>
     
